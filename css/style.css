@@ -1,0 +1,77 @@
+body{
+    font-size: arial;
+    background: linear-gradient(120deg, teal, purple);
+    color: white;
+}
+
+main{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+
+img{
+    width: 120px;
+    border: gold 7px solid;
+    border-radius: 50%;
+}
+
+main div{
+    padding: 20px;
+}
+
+div#izquierda{
+    text-align: center;
+
+}
+
+ul.redes-sociales{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+h1 span{
+    display: block;
+}
+
+span#apellido{
+    color: gold;
+    font-size: 50px;
+}
+
+p{
+    text-align: justify;
+    line-height: 30px;
+}
+
+table{
+    width: 100%;
+    border: silver 3px solid;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: silver 1px solid;
+    padding: 5px;
+}
+
+thead{
+    background-color: teal;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgba(255, 0, 0, 2);
+}
+
+tbody tr:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li:hover{
+    color: teal;
+}
